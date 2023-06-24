@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 
-loaded_model = pickle.load(open('C:/Users/prabh/Downloads/Deploy/trained_model2.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model2.sav', 'rb'))
 
 #creating   a function for prediction
 def water_pediction(input_data):
